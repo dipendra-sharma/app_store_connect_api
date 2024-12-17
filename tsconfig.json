@@ -24,7 +24,8 @@
     "index.ts",
     "runtime.ts",
     "apis/**/*",
-    "models/**/*"
+    "models/**/*",
+    "src/**/*"
   ],
   "exclude": [
     "node_modules",
