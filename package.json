@@ -1,6 +1,6 @@
 {
   "name": "@dipendra/app-store-connect-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A TypeScript library for interacting with the Apple App Store Connect API. Generated using OpenAPI Generator, this package provides strongly-typed client for App Store Connect API integration.",
   "type": "module",
   "main": "./dist/index.js",

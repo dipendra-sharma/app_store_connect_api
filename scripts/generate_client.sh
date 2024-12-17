@@ -50,7 +50,7 @@ grep "^apis/.*Api.ts$" "$PROJECT_ROOT/.openapi-generator/FILES" | while read -r 
     API_NAME=$(basename "$file" .ts)
 
     # Convert to camelCase for the getter name (e.g., actorsApi)
-    GETTER_NAME=$(echo "$API_NAME" | sed 's/\([A-Z]\)/_\1/g' | sed 's/^_//' | tr '[:upper:]' '[:lower:]' | sed 's/_\([a-z]\)/\U\1/g')
+    GETTER_NAME=$(echo "${API_NAME:0:1}" | tr '[:upper:]' '[:lower:]')${API_NAME:1}
 
     # Generate the getter
     cat >>"$OUTPUT_FILE" <<EOL

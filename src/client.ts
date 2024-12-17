@@ -16,627 +16,627 @@ export class AppStoreConnectClient {
         return this.apis[apiName] as T;
     }
 
-    get actorsUapi(): APIs.ActorsApi {
-        return this.getApi('actorsUapi', APIs.ActorsApi);
+    get actorsApi(): APIs.ActorsApi {
+        return this.getApi('actorsApi', APIs.ActorsApi);
     }
 
-    get ageUratingUdeclarationsUapi(): APIs.AgeRatingDeclarationsApi {
-        return this.getApi('ageUratingUdeclarationsUapi', APIs.AgeRatingDeclarationsApi);
+    get ageRatingDeclarationsApi(): APIs.AgeRatingDeclarationsApi {
+        return this.getApi('ageRatingDeclarationsApi', APIs.AgeRatingDeclarationsApi);
     }
 
-    get alternativeUdistributionUdomainsUapi(): APIs.AlternativeDistributionDomainsApi {
-        return this.getApi('alternativeUdistributionUdomainsUapi', APIs.AlternativeDistributionDomainsApi);
+    get alternativeDistributionDomainsApi(): APIs.AlternativeDistributionDomainsApi {
+        return this.getApi('alternativeDistributionDomainsApi', APIs.AlternativeDistributionDomainsApi);
     }
 
-    get alternativeUdistributionUkeysUapi(): APIs.AlternativeDistributionKeysApi {
-        return this.getApi('alternativeUdistributionUkeysUapi', APIs.AlternativeDistributionKeysApi);
+    get alternativeDistributionKeysApi(): APIs.AlternativeDistributionKeysApi {
+        return this.getApi('alternativeDistributionKeysApi', APIs.AlternativeDistributionKeysApi);
     }
 
-    get alternativeUdistributionUpackageUdeltasUapi(): APIs.AlternativeDistributionPackageDeltasApi {
-        return this.getApi('alternativeUdistributionUpackageUdeltasUapi', APIs.AlternativeDistributionPackageDeltasApi);
+    get alternativeDistributionPackageDeltasApi(): APIs.AlternativeDistributionPackageDeltasApi {
+        return this.getApi('alternativeDistributionPackageDeltasApi', APIs.AlternativeDistributionPackageDeltasApi);
     }
 
-    get alternativeUdistributionUpackageUvariantsUapi(): APIs.AlternativeDistributionPackageVariantsApi {
-        return this.getApi('alternativeUdistributionUpackageUvariantsUapi', APIs.AlternativeDistributionPackageVariantsApi);
+    get alternativeDistributionPackageVariantsApi(): APIs.AlternativeDistributionPackageVariantsApi {
+        return this.getApi('alternativeDistributionPackageVariantsApi', APIs.AlternativeDistributionPackageVariantsApi);
     }
 
-    get alternativeUdistributionUpackageUversionsUapi(): APIs.AlternativeDistributionPackageVersionsApi {
-        return this.getApi('alternativeUdistributionUpackageUversionsUapi', APIs.AlternativeDistributionPackageVersionsApi);
+    get alternativeDistributionPackageVersionsApi(): APIs.AlternativeDistributionPackageVersionsApi {
+        return this.getApi('alternativeDistributionPackageVersionsApi', APIs.AlternativeDistributionPackageVersionsApi);
     }
 
-    get alternativeUdistributionUpackagesUapi(): APIs.AlternativeDistributionPackagesApi {
-        return this.getApi('alternativeUdistributionUpackagesUapi', APIs.AlternativeDistributionPackagesApi);
+    get alternativeDistributionPackagesApi(): APIs.AlternativeDistributionPackagesApi {
+        return this.getApi('alternativeDistributionPackagesApi', APIs.AlternativeDistributionPackagesApi);
     }
 
-    get analyticsUreportUinstancesUapi(): APIs.AnalyticsReportInstancesApi {
-        return this.getApi('analyticsUreportUinstancesUapi', APIs.AnalyticsReportInstancesApi);
+    get analyticsReportInstancesApi(): APIs.AnalyticsReportInstancesApi {
+        return this.getApi('analyticsReportInstancesApi', APIs.AnalyticsReportInstancesApi);
     }
 
-    get analyticsUreportUrequestsUapi(): APIs.AnalyticsReportRequestsApi {
-        return this.getApi('analyticsUreportUrequestsUapi', APIs.AnalyticsReportRequestsApi);
+    get analyticsReportRequestsApi(): APIs.AnalyticsReportRequestsApi {
+        return this.getApi('analyticsReportRequestsApi', APIs.AnalyticsReportRequestsApi);
     }
 
-    get analyticsUreportUsegmentsUapi(): APIs.AnalyticsReportSegmentsApi {
-        return this.getApi('analyticsUreportUsegmentsUapi', APIs.AnalyticsReportSegmentsApi);
+    get analyticsReportSegmentsApi(): APIs.AnalyticsReportSegmentsApi {
+        return this.getApi('analyticsReportSegmentsApi', APIs.AnalyticsReportSegmentsApi);
     }
 
-    get analyticsUreportsUapi(): APIs.AnalyticsReportsApi {
-        return this.getApi('analyticsUreportsUapi', APIs.AnalyticsReportsApi);
+    get analyticsReportsApi(): APIs.AnalyticsReportsApi {
+        return this.getApi('analyticsReportsApi', APIs.AnalyticsReportsApi);
     }
 
-    get appUavailabilitiesUapi(): APIs.AppAvailabilitiesApi {
-        return this.getApi('appUavailabilitiesUapi', APIs.AppAvailabilitiesApi);
+    get appAvailabilitiesApi(): APIs.AppAvailabilitiesApi {
+        return this.getApi('appAvailabilitiesApi', APIs.AppAvailabilitiesApi);
     }
 
-    get appUcategoriesUapi(): APIs.AppCategoriesApi {
-        return this.getApi('appUcategoriesUapi', APIs.AppCategoriesApi);
+    get appCategoriesApi(): APIs.AppCategoriesApi {
+        return this.getApi('appCategoriesApi', APIs.AppCategoriesApi);
     }
 
-    get appUclipUadvancedUexperienceUimagesUapi(): APIs.AppClipAdvancedExperienceImagesApi {
-        return this.getApi('appUclipUadvancedUexperienceUimagesUapi', APIs.AppClipAdvancedExperienceImagesApi);
+    get appClipAdvancedExperienceImagesApi(): APIs.AppClipAdvancedExperienceImagesApi {
+        return this.getApi('appClipAdvancedExperienceImagesApi', APIs.AppClipAdvancedExperienceImagesApi);
     }
 
-    get appUclipUadvancedUexperiencesUapi(): APIs.AppClipAdvancedExperiencesApi {
-        return this.getApi('appUclipUadvancedUexperiencesUapi', APIs.AppClipAdvancedExperiencesApi);
+    get appClipAdvancedExperiencesApi(): APIs.AppClipAdvancedExperiencesApi {
+        return this.getApi('appClipAdvancedExperiencesApi', APIs.AppClipAdvancedExperiencesApi);
     }
 
-    get appUclipUappUstoreUreviewUdetailsUapi(): APIs.AppClipAppStoreReviewDetailsApi {
-        return this.getApi('appUclipUappUstoreUreviewUdetailsUapi', APIs.AppClipAppStoreReviewDetailsApi);
+    get appClipAppStoreReviewDetailsApi(): APIs.AppClipAppStoreReviewDetailsApi {
+        return this.getApi('appClipAppStoreReviewDetailsApi', APIs.AppClipAppStoreReviewDetailsApi);
     }
 
-    get appUclipUdefaultUexperienceUlocalizationsUapi(): APIs.AppClipDefaultExperienceLocalizationsApi {
-        return this.getApi('appUclipUdefaultUexperienceUlocalizationsUapi', APIs.AppClipDefaultExperienceLocalizationsApi);
+    get appClipDefaultExperienceLocalizationsApi(): APIs.AppClipDefaultExperienceLocalizationsApi {
+        return this.getApi('appClipDefaultExperienceLocalizationsApi', APIs.AppClipDefaultExperienceLocalizationsApi);
     }
 
-    get appUclipUdefaultUexperiencesUapi(): APIs.AppClipDefaultExperiencesApi {
-        return this.getApi('appUclipUdefaultUexperiencesUapi', APIs.AppClipDefaultExperiencesApi);
+    get appClipDefaultExperiencesApi(): APIs.AppClipDefaultExperiencesApi {
+        return this.getApi('appClipDefaultExperiencesApi', APIs.AppClipDefaultExperiencesApi);
     }
 
-    get appUclipUheaderUimagesUapi(): APIs.AppClipHeaderImagesApi {
-        return this.getApi('appUclipUheaderUimagesUapi', APIs.AppClipHeaderImagesApi);
+    get appClipHeaderImagesApi(): APIs.AppClipHeaderImagesApi {
+        return this.getApi('appClipHeaderImagesApi', APIs.AppClipHeaderImagesApi);
     }
 
-    get appUclipsUapi(): APIs.AppClipsApi {
-        return this.getApi('appUclipsUapi', APIs.AppClipsApi);
+    get appClipsApi(): APIs.AppClipsApi {
+        return this.getApi('appClipsApi', APIs.AppClipsApi);
     }
 
-    get appUcustomUproductUpageUlocalizationsUapi(): APIs.AppCustomProductPageLocalizationsApi {
-        return this.getApi('appUcustomUproductUpageUlocalizationsUapi', APIs.AppCustomProductPageLocalizationsApi);
+    get appCustomProductPageLocalizationsApi(): APIs.AppCustomProductPageLocalizationsApi {
+        return this.getApi('appCustomProductPageLocalizationsApi', APIs.AppCustomProductPageLocalizationsApi);
     }
 
-    get appUcustomUproductUpageUversionsUapi(): APIs.AppCustomProductPageVersionsApi {
-        return this.getApi('appUcustomUproductUpageUversionsUapi', APIs.AppCustomProductPageVersionsApi);
+    get appCustomProductPageVersionsApi(): APIs.AppCustomProductPageVersionsApi {
+        return this.getApi('appCustomProductPageVersionsApi', APIs.AppCustomProductPageVersionsApi);
     }
 
-    get appUcustomUproductUpagesUapi(): APIs.AppCustomProductPagesApi {
-        return this.getApi('appUcustomUproductUpagesUapi', APIs.AppCustomProductPagesApi);
+    get appCustomProductPagesApi(): APIs.AppCustomProductPagesApi {
+        return this.getApi('appCustomProductPagesApi', APIs.AppCustomProductPagesApi);
     }
 
-    get appUencryptionUdeclarationUdocumentsUapi(): APIs.AppEncryptionDeclarationDocumentsApi {
-        return this.getApi('appUencryptionUdeclarationUdocumentsUapi', APIs.AppEncryptionDeclarationDocumentsApi);
+    get appEncryptionDeclarationDocumentsApi(): APIs.AppEncryptionDeclarationDocumentsApi {
+        return this.getApi('appEncryptionDeclarationDocumentsApi', APIs.AppEncryptionDeclarationDocumentsApi);
     }
 
-    get appUencryptionUdeclarationsUapi(): APIs.AppEncryptionDeclarationsApi {
-        return this.getApi('appUencryptionUdeclarationsUapi', APIs.AppEncryptionDeclarationsApi);
+    get appEncryptionDeclarationsApi(): APIs.AppEncryptionDeclarationsApi {
+        return this.getApi('appEncryptionDeclarationsApi', APIs.AppEncryptionDeclarationsApi);
     }
 
-    get appUeventUlocalizationsUapi(): APIs.AppEventLocalizationsApi {
-        return this.getApi('appUeventUlocalizationsUapi', APIs.AppEventLocalizationsApi);
+    get appEventLocalizationsApi(): APIs.AppEventLocalizationsApi {
+        return this.getApi('appEventLocalizationsApi', APIs.AppEventLocalizationsApi);
     }
 
-    get appUeventUscreenshotsUapi(): APIs.AppEventScreenshotsApi {
-        return this.getApi('appUeventUscreenshotsUapi', APIs.AppEventScreenshotsApi);
+    get appEventScreenshotsApi(): APIs.AppEventScreenshotsApi {
+        return this.getApi('appEventScreenshotsApi', APIs.AppEventScreenshotsApi);
     }
 
-    get appUeventUvideoUclipsUapi(): APIs.AppEventVideoClipsApi {
-        return this.getApi('appUeventUvideoUclipsUapi', APIs.AppEventVideoClipsApi);
+    get appEventVideoClipsApi(): APIs.AppEventVideoClipsApi {
+        return this.getApi('appEventVideoClipsApi', APIs.AppEventVideoClipsApi);
     }
 
-    get appUeventsUapi(): APIs.AppEventsApi {
-        return this.getApi('appUeventsUapi', APIs.AppEventsApi);
+    get appEventsApi(): APIs.AppEventsApi {
+        return this.getApi('appEventsApi', APIs.AppEventsApi);
     }
 
-    get appUinfoUlocalizationsUapi(): APIs.AppInfoLocalizationsApi {
-        return this.getApi('appUinfoUlocalizationsUapi', APIs.AppInfoLocalizationsApi);
+    get appInfoLocalizationsApi(): APIs.AppInfoLocalizationsApi {
+        return this.getApi('appInfoLocalizationsApi', APIs.AppInfoLocalizationsApi);
     }
 
-    get appUinfosUapi(): APIs.AppInfosApi {
-        return this.getApi('appUinfosUapi', APIs.AppInfosApi);
+    get appInfosApi(): APIs.AppInfosApi {
+        return this.getApi('appInfosApi', APIs.AppInfosApi);
     }
 
-    get appUpreviewUsetsUapi(): APIs.AppPreviewSetsApi {
-        return this.getApi('appUpreviewUsetsUapi', APIs.AppPreviewSetsApi);
+    get appPreviewSetsApi(): APIs.AppPreviewSetsApi {
+        return this.getApi('appPreviewSetsApi', APIs.AppPreviewSetsApi);
     }
 
-    get appUpreviewsUapi(): APIs.AppPreviewsApi {
-        return this.getApi('appUpreviewsUapi', APIs.AppPreviewsApi);
+    get appPreviewsApi(): APIs.AppPreviewsApi {
+        return this.getApi('appPreviewsApi', APIs.AppPreviewsApi);
     }
 
-    get appUpriceUpointsUapi(): APIs.AppPricePointsApi {
-        return this.getApi('appUpriceUpointsUapi', APIs.AppPricePointsApi);
+    get appPricePointsApi(): APIs.AppPricePointsApi {
+        return this.getApi('appPricePointsApi', APIs.AppPricePointsApi);
     }
 
-    get appUpriceUschedulesUapi(): APIs.AppPriceSchedulesApi {
-        return this.getApi('appUpriceUschedulesUapi', APIs.AppPriceSchedulesApi);
+    get appPriceSchedulesApi(): APIs.AppPriceSchedulesApi {
+        return this.getApi('appPriceSchedulesApi', APIs.AppPriceSchedulesApi);
     }
 
-    get appUscreenshotUsetsUapi(): APIs.AppScreenshotSetsApi {
-        return this.getApi('appUscreenshotUsetsUapi', APIs.AppScreenshotSetsApi);
+    get appScreenshotSetsApi(): APIs.AppScreenshotSetsApi {
+        return this.getApi('appScreenshotSetsApi', APIs.AppScreenshotSetsApi);
     }
 
-    get appUscreenshotsUapi(): APIs.AppScreenshotsApi {
-        return this.getApi('appUscreenshotsUapi', APIs.AppScreenshotsApi);
+    get appScreenshotsApi(): APIs.AppScreenshotsApi {
+        return this.getApi('appScreenshotsApi', APIs.AppScreenshotsApi);
     }
 
-    get appUstoreUreviewUattachmentsUapi(): APIs.AppStoreReviewAttachmentsApi {
-        return this.getApi('appUstoreUreviewUattachmentsUapi', APIs.AppStoreReviewAttachmentsApi);
+    get appStoreReviewAttachmentsApi(): APIs.AppStoreReviewAttachmentsApi {
+        return this.getApi('appStoreReviewAttachmentsApi', APIs.AppStoreReviewAttachmentsApi);
     }
 
-    get appUstoreUreviewUdetailsUapi(): APIs.AppStoreReviewDetailsApi {
-        return this.getApi('appUstoreUreviewUdetailsUapi', APIs.AppStoreReviewDetailsApi);
+    get appStoreReviewDetailsApi(): APIs.AppStoreReviewDetailsApi {
+        return this.getApi('appStoreReviewDetailsApi', APIs.AppStoreReviewDetailsApi);
     }
 
-    get appUstoreUversionUexperimentUtreatmentUlocalizationsUapi(): APIs.AppStoreVersionExperimentTreatmentLocalizationsApi {
-        return this.getApi('appUstoreUversionUexperimentUtreatmentUlocalizationsUapi', APIs.AppStoreVersionExperimentTreatmentLocalizationsApi);
+    get appStoreVersionExperimentTreatmentLocalizationsApi(): APIs.AppStoreVersionExperimentTreatmentLocalizationsApi {
+        return this.getApi('appStoreVersionExperimentTreatmentLocalizationsApi', APIs.AppStoreVersionExperimentTreatmentLocalizationsApi);
     }
 
-    get appUstoreUversionUexperimentUtreatmentsUapi(): APIs.AppStoreVersionExperimentTreatmentsApi {
-        return this.getApi('appUstoreUversionUexperimentUtreatmentsUapi', APIs.AppStoreVersionExperimentTreatmentsApi);
+    get appStoreVersionExperimentTreatmentsApi(): APIs.AppStoreVersionExperimentTreatmentsApi {
+        return this.getApi('appStoreVersionExperimentTreatmentsApi', APIs.AppStoreVersionExperimentTreatmentsApi);
     }
 
-    get appUstoreUversionUexperimentsUapi(): APIs.AppStoreVersionExperimentsApi {
-        return this.getApi('appUstoreUversionUexperimentsUapi', APIs.AppStoreVersionExperimentsApi);
+    get appStoreVersionExperimentsApi(): APIs.AppStoreVersionExperimentsApi {
+        return this.getApi('appStoreVersionExperimentsApi', APIs.AppStoreVersionExperimentsApi);
     }
 
-    get appUstoreUversionUlocalizationsUapi(): APIs.AppStoreVersionLocalizationsApi {
-        return this.getApi('appUstoreUversionUlocalizationsUapi', APIs.AppStoreVersionLocalizationsApi);
+    get appStoreVersionLocalizationsApi(): APIs.AppStoreVersionLocalizationsApi {
+        return this.getApi('appStoreVersionLocalizationsApi', APIs.AppStoreVersionLocalizationsApi);
     }
 
-    get appUstoreUversionUphasedUreleasesUapi(): APIs.AppStoreVersionPhasedReleasesApi {
-        return this.getApi('appUstoreUversionUphasedUreleasesUapi', APIs.AppStoreVersionPhasedReleasesApi);
+    get appStoreVersionPhasedReleasesApi(): APIs.AppStoreVersionPhasedReleasesApi {
+        return this.getApi('appStoreVersionPhasedReleasesApi', APIs.AppStoreVersionPhasedReleasesApi);
     }
 
-    get appUstoreUversionUpromotionsUapi(): APIs.AppStoreVersionPromotionsApi {
-        return this.getApi('appUstoreUversionUpromotionsUapi', APIs.AppStoreVersionPromotionsApi);
+    get appStoreVersionPromotionsApi(): APIs.AppStoreVersionPromotionsApi {
+        return this.getApi('appStoreVersionPromotionsApi', APIs.AppStoreVersionPromotionsApi);
     }
 
-    get appUstoreUversionUreleaseUrequestsUapi(): APIs.AppStoreVersionReleaseRequestsApi {
-        return this.getApi('appUstoreUversionUreleaseUrequestsUapi', APIs.AppStoreVersionReleaseRequestsApi);
+    get appStoreVersionReleaseRequestsApi(): APIs.AppStoreVersionReleaseRequestsApi {
+        return this.getApi('appStoreVersionReleaseRequestsApi', APIs.AppStoreVersionReleaseRequestsApi);
     }
 
-    get appUstoreUversionUsubmissionsUapi(): APIs.AppStoreVersionSubmissionsApi {
-        return this.getApi('appUstoreUversionUsubmissionsUapi', APIs.AppStoreVersionSubmissionsApi);
+    get appStoreVersionSubmissionsApi(): APIs.AppStoreVersionSubmissionsApi {
+        return this.getApi('appStoreVersionSubmissionsApi', APIs.AppStoreVersionSubmissionsApi);
     }
 
-    get appUstoreUversionsUapi(): APIs.AppStoreVersionsApi {
-        return this.getApi('appUstoreUversionsUapi', APIs.AppStoreVersionsApi);
+    get appStoreVersionsApi(): APIs.AppStoreVersionsApi {
+        return this.getApi('appStoreVersionsApi', APIs.AppStoreVersionsApi);
     }
 
-    get appsUapi(): APIs.AppsApi {
-        return this.getApi('appsUapi', APIs.AppsApi);
+    get appsApi(): APIs.AppsApi {
+        return this.getApi('appsApi', APIs.AppsApi);
     }
 
-    get betaUappUclipUinvocationUlocalizationsUapi(): APIs.BetaAppClipInvocationLocalizationsApi {
-        return this.getApi('betaUappUclipUinvocationUlocalizationsUapi', APIs.BetaAppClipInvocationLocalizationsApi);
+    get betaAppClipInvocationLocalizationsApi(): APIs.BetaAppClipInvocationLocalizationsApi {
+        return this.getApi('betaAppClipInvocationLocalizationsApi', APIs.BetaAppClipInvocationLocalizationsApi);
     }
 
-    get betaUappUclipUinvocationsUapi(): APIs.BetaAppClipInvocationsApi {
-        return this.getApi('betaUappUclipUinvocationsUapi', APIs.BetaAppClipInvocationsApi);
+    get betaAppClipInvocationsApi(): APIs.BetaAppClipInvocationsApi {
+        return this.getApi('betaAppClipInvocationsApi', APIs.BetaAppClipInvocationsApi);
     }
 
-    get betaUappUlocalizationsUapi(): APIs.BetaAppLocalizationsApi {
-        return this.getApi('betaUappUlocalizationsUapi', APIs.BetaAppLocalizationsApi);
+    get betaAppLocalizationsApi(): APIs.BetaAppLocalizationsApi {
+        return this.getApi('betaAppLocalizationsApi', APIs.BetaAppLocalizationsApi);
     }
 
-    get betaUappUreviewUdetailsUapi(): APIs.BetaAppReviewDetailsApi {
-        return this.getApi('betaUappUreviewUdetailsUapi', APIs.BetaAppReviewDetailsApi);
+    get betaAppReviewDetailsApi(): APIs.BetaAppReviewDetailsApi {
+        return this.getApi('betaAppReviewDetailsApi', APIs.BetaAppReviewDetailsApi);
     }
 
-    get betaUappUreviewUsubmissionsUapi(): APIs.BetaAppReviewSubmissionsApi {
-        return this.getApi('betaUappUreviewUsubmissionsUapi', APIs.BetaAppReviewSubmissionsApi);
+    get betaAppReviewSubmissionsApi(): APIs.BetaAppReviewSubmissionsApi {
+        return this.getApi('betaAppReviewSubmissionsApi', APIs.BetaAppReviewSubmissionsApi);
     }
 
-    get betaUbuildUlocalizationsUapi(): APIs.BetaBuildLocalizationsApi {
-        return this.getApi('betaUbuildUlocalizationsUapi', APIs.BetaBuildLocalizationsApi);
+    get betaBuildLocalizationsApi(): APIs.BetaBuildLocalizationsApi {
+        return this.getApi('betaBuildLocalizationsApi', APIs.BetaBuildLocalizationsApi);
     }
 
-    get betaUgroupsUapi(): APIs.BetaGroupsApi {
-        return this.getApi('betaUgroupsUapi', APIs.BetaGroupsApi);
+    get betaGroupsApi(): APIs.BetaGroupsApi {
+        return this.getApi('betaGroupsApi', APIs.BetaGroupsApi);
     }
 
-    get betaUlicenseUagreementsUapi(): APIs.BetaLicenseAgreementsApi {
-        return this.getApi('betaUlicenseUagreementsUapi', APIs.BetaLicenseAgreementsApi);
+    get betaLicenseAgreementsApi(): APIs.BetaLicenseAgreementsApi {
+        return this.getApi('betaLicenseAgreementsApi', APIs.BetaLicenseAgreementsApi);
     }
 
-    get betaUtesterUinvitationsUapi(): APIs.BetaTesterInvitationsApi {
-        return this.getApi('betaUtesterUinvitationsUapi', APIs.BetaTesterInvitationsApi);
+    get betaTesterInvitationsApi(): APIs.BetaTesterInvitationsApi {
+        return this.getApi('betaTesterInvitationsApi', APIs.BetaTesterInvitationsApi);
     }
 
-    get betaUtestersUapi(): APIs.BetaTestersApi {
-        return this.getApi('betaUtestersUapi', APIs.BetaTestersApi);
+    get betaTestersApi(): APIs.BetaTestersApi {
+        return this.getApi('betaTestersApi', APIs.BetaTestersApi);
     }
 
-    get buildUbetaUdetailsUapi(): APIs.BuildBetaDetailsApi {
-        return this.getApi('buildUbetaUdetailsUapi', APIs.BuildBetaDetailsApi);
+    get buildBetaDetailsApi(): APIs.BuildBetaDetailsApi {
+        return this.getApi('buildBetaDetailsApi', APIs.BuildBetaDetailsApi);
     }
 
-    get buildUbetaUnotificationsUapi(): APIs.BuildBetaNotificationsApi {
-        return this.getApi('buildUbetaUnotificationsUapi', APIs.BuildBetaNotificationsApi);
+    get buildBetaNotificationsApi(): APIs.BuildBetaNotificationsApi {
+        return this.getApi('buildBetaNotificationsApi', APIs.BuildBetaNotificationsApi);
     }
 
-    get buildUbundlesUapi(): APIs.BuildBundlesApi {
-        return this.getApi('buildUbundlesUapi', APIs.BuildBundlesApi);
+    get buildBundlesApi(): APIs.BuildBundlesApi {
+        return this.getApi('buildBundlesApi', APIs.BuildBundlesApi);
     }
 
-    get buildsUapi(): APIs.BuildsApi {
-        return this.getApi('buildsUapi', APIs.BuildsApi);
+    get buildsApi(): APIs.BuildsApi {
+        return this.getApi('buildsApi', APIs.BuildsApi);
     }
 
-    get bundleUidUcapabilitiesUapi(): APIs.BundleIdCapabilitiesApi {
-        return this.getApi('bundleUidUcapabilitiesUapi', APIs.BundleIdCapabilitiesApi);
+    get bundleIdCapabilitiesApi(): APIs.BundleIdCapabilitiesApi {
+        return this.getApi('bundleIdCapabilitiesApi', APIs.BundleIdCapabilitiesApi);
     }
 
-    get bundleUidsUapi(): APIs.BundleIdsApi {
-        return this.getApi('bundleUidsUapi', APIs.BundleIdsApi);
+    get bundleIdsApi(): APIs.BundleIdsApi {
+        return this.getApi('bundleIdsApi', APIs.BundleIdsApi);
     }
 
-    get certificatesUapi(): APIs.CertificatesApi {
-        return this.getApi('certificatesUapi', APIs.CertificatesApi);
+    get certificatesApi(): APIs.CertificatesApi {
+        return this.getApi('certificatesApi', APIs.CertificatesApi);
     }
 
-    get ciUartifactsUapi(): APIs.CiArtifactsApi {
-        return this.getApi('ciUartifactsUapi', APIs.CiArtifactsApi);
+    get ciArtifactsApi(): APIs.CiArtifactsApi {
+        return this.getApi('ciArtifactsApi', APIs.CiArtifactsApi);
     }
 
-    get ciUbuildUactionsUapi(): APIs.CiBuildActionsApi {
-        return this.getApi('ciUbuildUactionsUapi', APIs.CiBuildActionsApi);
+    get ciBuildActionsApi(): APIs.CiBuildActionsApi {
+        return this.getApi('ciBuildActionsApi', APIs.CiBuildActionsApi);
     }
 
-    get ciUbuildUrunsUapi(): APIs.CiBuildRunsApi {
-        return this.getApi('ciUbuildUrunsUapi', APIs.CiBuildRunsApi);
+    get ciBuildRunsApi(): APIs.CiBuildRunsApi {
+        return this.getApi('ciBuildRunsApi', APIs.CiBuildRunsApi);
     }
 
-    get ciUissuesUapi(): APIs.CiIssuesApi {
-        return this.getApi('ciUissuesUapi', APIs.CiIssuesApi);
+    get ciIssuesApi(): APIs.CiIssuesApi {
+        return this.getApi('ciIssuesApi', APIs.CiIssuesApi);
     }
 
-    get ciUmacUosUversionsUapi(): APIs.CiMacOsVersionsApi {
-        return this.getApi('ciUmacUosUversionsUapi', APIs.CiMacOsVersionsApi);
+    get ciMacOsVersionsApi(): APIs.CiMacOsVersionsApi {
+        return this.getApi('ciMacOsVersionsApi', APIs.CiMacOsVersionsApi);
     }
 
-    get ciUproductsUapi(): APIs.CiProductsApi {
-        return this.getApi('ciUproductsUapi', APIs.CiProductsApi);
+    get ciProductsApi(): APIs.CiProductsApi {
+        return this.getApi('ciProductsApi', APIs.CiProductsApi);
     }
 
-    get ciUtestUresultsUapi(): APIs.CiTestResultsApi {
-        return this.getApi('ciUtestUresultsUapi', APIs.CiTestResultsApi);
+    get ciTestResultsApi(): APIs.CiTestResultsApi {
+        return this.getApi('ciTestResultsApi', APIs.CiTestResultsApi);
     }
 
-    get ciUworkflowsUapi(): APIs.CiWorkflowsApi {
-        return this.getApi('ciUworkflowsUapi', APIs.CiWorkflowsApi);
+    get ciWorkflowsApi(): APIs.CiWorkflowsApi {
+        return this.getApi('ciWorkflowsApi', APIs.CiWorkflowsApi);
     }
 
-    get ciUxcodeUversionsUapi(): APIs.CiXcodeVersionsApi {
-        return this.getApi('ciUxcodeUversionsUapi', APIs.CiXcodeVersionsApi);
+    get ciXcodeVersionsApi(): APIs.CiXcodeVersionsApi {
+        return this.getApi('ciXcodeVersionsApi', APIs.CiXcodeVersionsApi);
     }
 
-    get customerUreviewUresponsesUapi(): APIs.CustomerReviewResponsesApi {
-        return this.getApi('customerUreviewUresponsesUapi', APIs.CustomerReviewResponsesApi);
+    get customerReviewResponsesApi(): APIs.CustomerReviewResponsesApi {
+        return this.getApi('customerReviewResponsesApi', APIs.CustomerReviewResponsesApi);
     }
 
-    get customerUreviewsUapi(): APIs.CustomerReviewsApi {
-        return this.getApi('customerUreviewsUapi', APIs.CustomerReviewsApi);
+    get customerReviewsApi(): APIs.CustomerReviewsApi {
+        return this.getApi('customerReviewsApi', APIs.CustomerReviewsApi);
     }
 
-    get devicesUapi(): APIs.DevicesApi {
-        return this.getApi('devicesUapi', APIs.DevicesApi);
+    get devicesApi(): APIs.DevicesApi {
+        return this.getApi('devicesApi', APIs.DevicesApi);
     }
 
-    get diagnosticUsignaturesUapi(): APIs.DiagnosticSignaturesApi {
-        return this.getApi('diagnosticUsignaturesUapi', APIs.DiagnosticSignaturesApi);
+    get diagnosticSignaturesApi(): APIs.DiagnosticSignaturesApi {
+        return this.getApi('diagnosticSignaturesApi', APIs.DiagnosticSignaturesApi);
     }
 
-    get endUappUavailabilityUpreUordersUapi(): APIs.EndAppAvailabilityPreOrdersApi {
-        return this.getApi('endUappUavailabilityUpreUordersUapi', APIs.EndAppAvailabilityPreOrdersApi);
+    get endAppAvailabilityPreOrdersApi(): APIs.EndAppAvailabilityPreOrdersApi {
+        return this.getApi('endAppAvailabilityPreOrdersApi', APIs.EndAppAvailabilityPreOrdersApi);
     }
 
-    get endUuserUlicenseUagreementsUapi(): APIs.EndUserLicenseAgreementsApi {
-        return this.getApi('endUuserUlicenseUagreementsUapi', APIs.EndUserLicenseAgreementsApi);
+    get endUserLicenseAgreementsApi(): APIs.EndUserLicenseAgreementsApi {
+        return this.getApi('endUserLicenseAgreementsApi', APIs.EndUserLicenseAgreementsApi);
     }
 
-    get financeUreportsUapi(): APIs.FinanceReportsApi {
-        return this.getApi('financeUreportsUapi', APIs.FinanceReportsApi);
+    get financeReportsApi(): APIs.FinanceReportsApi {
+        return this.getApi('financeReportsApi', APIs.FinanceReportsApi);
     }
 
-    get gameUcenterUachievementUimagesUapi(): APIs.GameCenterAchievementImagesApi {
-        return this.getApi('gameUcenterUachievementUimagesUapi', APIs.GameCenterAchievementImagesApi);
+    get gameCenterAchievementImagesApi(): APIs.GameCenterAchievementImagesApi {
+        return this.getApi('gameCenterAchievementImagesApi', APIs.GameCenterAchievementImagesApi);
     }
 
-    get gameUcenterUachievementUlocalizationsUapi(): APIs.GameCenterAchievementLocalizationsApi {
-        return this.getApi('gameUcenterUachievementUlocalizationsUapi', APIs.GameCenterAchievementLocalizationsApi);
+    get gameCenterAchievementLocalizationsApi(): APIs.GameCenterAchievementLocalizationsApi {
+        return this.getApi('gameCenterAchievementLocalizationsApi', APIs.GameCenterAchievementLocalizationsApi);
     }
 
-    get gameUcenterUachievementUreleasesUapi(): APIs.GameCenterAchievementReleasesApi {
-        return this.getApi('gameUcenterUachievementUreleasesUapi', APIs.GameCenterAchievementReleasesApi);
+    get gameCenterAchievementReleasesApi(): APIs.GameCenterAchievementReleasesApi {
+        return this.getApi('gameCenterAchievementReleasesApi', APIs.GameCenterAchievementReleasesApi);
     }
 
-    get gameUcenterUachievementsUapi(): APIs.GameCenterAchievementsApi {
-        return this.getApi('gameUcenterUachievementsUapi', APIs.GameCenterAchievementsApi);
+    get gameCenterAchievementsApi(): APIs.GameCenterAchievementsApi {
+        return this.getApi('gameCenterAchievementsApi', APIs.GameCenterAchievementsApi);
     }
 
-    get gameUcenterUappUversionsUapi(): APIs.GameCenterAppVersionsApi {
-        return this.getApi('gameUcenterUappUversionsUapi', APIs.GameCenterAppVersionsApi);
+    get gameCenterAppVersionsApi(): APIs.GameCenterAppVersionsApi {
+        return this.getApi('gameCenterAppVersionsApi', APIs.GameCenterAppVersionsApi);
     }
 
-    get gameUcenterUdetailsUapi(): APIs.GameCenterDetailsApi {
-        return this.getApi('gameUcenterUdetailsUapi', APIs.GameCenterDetailsApi);
+    get gameCenterDetailsApi(): APIs.GameCenterDetailsApi {
+        return this.getApi('gameCenterDetailsApi', APIs.GameCenterDetailsApi);
     }
 
-    get gameUcenterUenabledUversionsUapi(): APIs.GameCenterEnabledVersionsApi {
-        return this.getApi('gameUcenterUenabledUversionsUapi', APIs.GameCenterEnabledVersionsApi);
+    get gameCenterEnabledVersionsApi(): APIs.GameCenterEnabledVersionsApi {
+        return this.getApi('gameCenterEnabledVersionsApi', APIs.GameCenterEnabledVersionsApi);
     }
 
-    get gameUcenterUgroupsUapi(): APIs.GameCenterGroupsApi {
-        return this.getApi('gameUcenterUgroupsUapi', APIs.GameCenterGroupsApi);
+    get gameCenterGroupsApi(): APIs.GameCenterGroupsApi {
+        return this.getApi('gameCenterGroupsApi', APIs.GameCenterGroupsApi);
     }
 
-    get gameUcenterUleaderboardUentryUsubmissionsUapi(): APIs.GameCenterLeaderboardEntrySubmissionsApi {
-        return this.getApi('gameUcenterUleaderboardUentryUsubmissionsUapi', APIs.GameCenterLeaderboardEntrySubmissionsApi);
+    get gameCenterLeaderboardEntrySubmissionsApi(): APIs.GameCenterLeaderboardEntrySubmissionsApi {
+        return this.getApi('gameCenterLeaderboardEntrySubmissionsApi', APIs.GameCenterLeaderboardEntrySubmissionsApi);
     }
 
-    get gameUcenterUleaderboardUimagesUapi(): APIs.GameCenterLeaderboardImagesApi {
-        return this.getApi('gameUcenterUleaderboardUimagesUapi', APIs.GameCenterLeaderboardImagesApi);
+    get gameCenterLeaderboardImagesApi(): APIs.GameCenterLeaderboardImagesApi {
+        return this.getApi('gameCenterLeaderboardImagesApi', APIs.GameCenterLeaderboardImagesApi);
     }
 
-    get gameUcenterUleaderboardUlocalizationsUapi(): APIs.GameCenterLeaderboardLocalizationsApi {
-        return this.getApi('gameUcenterUleaderboardUlocalizationsUapi', APIs.GameCenterLeaderboardLocalizationsApi);
+    get gameCenterLeaderboardLocalizationsApi(): APIs.GameCenterLeaderboardLocalizationsApi {
+        return this.getApi('gameCenterLeaderboardLocalizationsApi', APIs.GameCenterLeaderboardLocalizationsApi);
     }
 
-    get gameUcenterUleaderboardUreleasesUapi(): APIs.GameCenterLeaderboardReleasesApi {
-        return this.getApi('gameUcenterUleaderboardUreleasesUapi', APIs.GameCenterLeaderboardReleasesApi);
+    get gameCenterLeaderboardReleasesApi(): APIs.GameCenterLeaderboardReleasesApi {
+        return this.getApi('gameCenterLeaderboardReleasesApi', APIs.GameCenterLeaderboardReleasesApi);
     }
 
-    get gameUcenterUleaderboardUsetUimagesUapi(): APIs.GameCenterLeaderboardSetImagesApi {
-        return this.getApi('gameUcenterUleaderboardUsetUimagesUapi', APIs.GameCenterLeaderboardSetImagesApi);
+    get gameCenterLeaderboardSetImagesApi(): APIs.GameCenterLeaderboardSetImagesApi {
+        return this.getApi('gameCenterLeaderboardSetImagesApi', APIs.GameCenterLeaderboardSetImagesApi);
     }
 
-    get gameUcenterUleaderboardUsetUlocalizationsUapi(): APIs.GameCenterLeaderboardSetLocalizationsApi {
-        return this.getApi('gameUcenterUleaderboardUsetUlocalizationsUapi', APIs.GameCenterLeaderboardSetLocalizationsApi);
+    get gameCenterLeaderboardSetLocalizationsApi(): APIs.GameCenterLeaderboardSetLocalizationsApi {
+        return this.getApi('gameCenterLeaderboardSetLocalizationsApi', APIs.GameCenterLeaderboardSetLocalizationsApi);
     }
 
-    get gameUcenterUleaderboardUsetUmemberUlocalizationsUapi(): APIs.GameCenterLeaderboardSetMemberLocalizationsApi {
-        return this.getApi('gameUcenterUleaderboardUsetUmemberUlocalizationsUapi', APIs.GameCenterLeaderboardSetMemberLocalizationsApi);
+    get gameCenterLeaderboardSetMemberLocalizationsApi(): APIs.GameCenterLeaderboardSetMemberLocalizationsApi {
+        return this.getApi('gameCenterLeaderboardSetMemberLocalizationsApi', APIs.GameCenterLeaderboardSetMemberLocalizationsApi);
     }
 
-    get gameUcenterUleaderboardUsetUreleasesUapi(): APIs.GameCenterLeaderboardSetReleasesApi {
-        return this.getApi('gameUcenterUleaderboardUsetUreleasesUapi', APIs.GameCenterLeaderboardSetReleasesApi);
+    get gameCenterLeaderboardSetReleasesApi(): APIs.GameCenterLeaderboardSetReleasesApi {
+        return this.getApi('gameCenterLeaderboardSetReleasesApi', APIs.GameCenterLeaderboardSetReleasesApi);
     }
 
-    get gameUcenterUleaderboardUsetsUapi(): APIs.GameCenterLeaderboardSetsApi {
-        return this.getApi('gameUcenterUleaderboardUsetsUapi', APIs.GameCenterLeaderboardSetsApi);
+    get gameCenterLeaderboardSetsApi(): APIs.GameCenterLeaderboardSetsApi {
+        return this.getApi('gameCenterLeaderboardSetsApi', APIs.GameCenterLeaderboardSetsApi);
     }
 
-    get gameUcenterUleaderboardsUapi(): APIs.GameCenterLeaderboardsApi {
-        return this.getApi('gameUcenterUleaderboardsUapi', APIs.GameCenterLeaderboardsApi);
+    get gameCenterLeaderboardsApi(): APIs.GameCenterLeaderboardsApi {
+        return this.getApi('gameCenterLeaderboardsApi', APIs.GameCenterLeaderboardsApi);
     }
 
-    get gameUcenterUmatchmakingUqueuesUapi(): APIs.GameCenterMatchmakingQueuesApi {
-        return this.getApi('gameUcenterUmatchmakingUqueuesUapi', APIs.GameCenterMatchmakingQueuesApi);
+    get gameCenterMatchmakingQueuesApi(): APIs.GameCenterMatchmakingQueuesApi {
+        return this.getApi('gameCenterMatchmakingQueuesApi', APIs.GameCenterMatchmakingQueuesApi);
     }
 
-    get gameUcenterUmatchmakingUruleUsetUtestsUapi(): APIs.GameCenterMatchmakingRuleSetTestsApi {
-        return this.getApi('gameUcenterUmatchmakingUruleUsetUtestsUapi', APIs.GameCenterMatchmakingRuleSetTestsApi);
+    get gameCenterMatchmakingRuleSetTestsApi(): APIs.GameCenterMatchmakingRuleSetTestsApi {
+        return this.getApi('gameCenterMatchmakingRuleSetTestsApi', APIs.GameCenterMatchmakingRuleSetTestsApi);
     }
 
-    get gameUcenterUmatchmakingUruleUsetsUapi(): APIs.GameCenterMatchmakingRuleSetsApi {
-        return this.getApi('gameUcenterUmatchmakingUruleUsetsUapi', APIs.GameCenterMatchmakingRuleSetsApi);
+    get gameCenterMatchmakingRuleSetsApi(): APIs.GameCenterMatchmakingRuleSetsApi {
+        return this.getApi('gameCenterMatchmakingRuleSetsApi', APIs.GameCenterMatchmakingRuleSetsApi);
     }
 
-    get gameUcenterUmatchmakingUrulesUapi(): APIs.GameCenterMatchmakingRulesApi {
-        return this.getApi('gameUcenterUmatchmakingUrulesUapi', APIs.GameCenterMatchmakingRulesApi);
+    get gameCenterMatchmakingRulesApi(): APIs.GameCenterMatchmakingRulesApi {
+        return this.getApi('gameCenterMatchmakingRulesApi', APIs.GameCenterMatchmakingRulesApi);
     }
 
-    get gameUcenterUmatchmakingUteamsUapi(): APIs.GameCenterMatchmakingTeamsApi {
-        return this.getApi('gameUcenterUmatchmakingUteamsUapi', APIs.GameCenterMatchmakingTeamsApi);
+    get gameCenterMatchmakingTeamsApi(): APIs.GameCenterMatchmakingTeamsApi {
+        return this.getApi('gameCenterMatchmakingTeamsApi', APIs.GameCenterMatchmakingTeamsApi);
     }
 
-    get gameUcenterUplayerUachievementUsubmissionsUapi(): APIs.GameCenterPlayerAchievementSubmissionsApi {
-        return this.getApi('gameUcenterUplayerUachievementUsubmissionsUapi', APIs.GameCenterPlayerAchievementSubmissionsApi);
+    get gameCenterPlayerAchievementSubmissionsApi(): APIs.GameCenterPlayerAchievementSubmissionsApi {
+        return this.getApi('gameCenterPlayerAchievementSubmissionsApi', APIs.GameCenterPlayerAchievementSubmissionsApi);
     }
 
-    get inUappUpurchaseUappUstoreUreviewUscreenshotsUapi(): APIs.InAppPurchaseAppStoreReviewScreenshotsApi {
-        return this.getApi('inUappUpurchaseUappUstoreUreviewUscreenshotsUapi', APIs.InAppPurchaseAppStoreReviewScreenshotsApi);
+    get inAppPurchaseAppStoreReviewScreenshotsApi(): APIs.InAppPurchaseAppStoreReviewScreenshotsApi {
+        return this.getApi('inAppPurchaseAppStoreReviewScreenshotsApi', APIs.InAppPurchaseAppStoreReviewScreenshotsApi);
     }
 
-    get inUappUpurchaseUavailabilitiesUapi(): APIs.InAppPurchaseAvailabilitiesApi {
-        return this.getApi('inUappUpurchaseUavailabilitiesUapi', APIs.InAppPurchaseAvailabilitiesApi);
+    get inAppPurchaseAvailabilitiesApi(): APIs.InAppPurchaseAvailabilitiesApi {
+        return this.getApi('inAppPurchaseAvailabilitiesApi', APIs.InAppPurchaseAvailabilitiesApi);
     }
 
-    get inUappUpurchaseUcontentsUapi(): APIs.InAppPurchaseContentsApi {
-        return this.getApi('inUappUpurchaseUcontentsUapi', APIs.InAppPurchaseContentsApi);
+    get inAppPurchaseContentsApi(): APIs.InAppPurchaseContentsApi {
+        return this.getApi('inAppPurchaseContentsApi', APIs.InAppPurchaseContentsApi);
     }
 
-    get inUappUpurchaseUimagesUapi(): APIs.InAppPurchaseImagesApi {
-        return this.getApi('inUappUpurchaseUimagesUapi', APIs.InAppPurchaseImagesApi);
+    get inAppPurchaseImagesApi(): APIs.InAppPurchaseImagesApi {
+        return this.getApi('inAppPurchaseImagesApi', APIs.InAppPurchaseImagesApi);
     }
 
-    get inUappUpurchaseUlocalizationsUapi(): APIs.InAppPurchaseLocalizationsApi {
-        return this.getApi('inUappUpurchaseUlocalizationsUapi', APIs.InAppPurchaseLocalizationsApi);
+    get inAppPurchaseLocalizationsApi(): APIs.InAppPurchaseLocalizationsApi {
+        return this.getApi('inAppPurchaseLocalizationsApi', APIs.InAppPurchaseLocalizationsApi);
     }
 
-    get inUappUpurchaseUpriceUpointsUapi(): APIs.InAppPurchasePricePointsApi {
-        return this.getApi('inUappUpurchaseUpriceUpointsUapi', APIs.InAppPurchasePricePointsApi);
+    get inAppPurchasePricePointsApi(): APIs.InAppPurchasePricePointsApi {
+        return this.getApi('inAppPurchasePricePointsApi', APIs.InAppPurchasePricePointsApi);
     }
 
-    get inUappUpurchaseUpriceUschedulesUapi(): APIs.InAppPurchasePriceSchedulesApi {
-        return this.getApi('inUappUpurchaseUpriceUschedulesUapi', APIs.InAppPurchasePriceSchedulesApi);
+    get inAppPurchasePriceSchedulesApi(): APIs.InAppPurchasePriceSchedulesApi {
+        return this.getApi('inAppPurchasePriceSchedulesApi', APIs.InAppPurchasePriceSchedulesApi);
     }
 
-    get inUappUpurchaseUsubmissionsUapi(): APIs.InAppPurchaseSubmissionsApi {
-        return this.getApi('inUappUpurchaseUsubmissionsUapi', APIs.InAppPurchaseSubmissionsApi);
+    get inAppPurchaseSubmissionsApi(): APIs.InAppPurchaseSubmissionsApi {
+        return this.getApi('inAppPurchaseSubmissionsApi', APIs.InAppPurchaseSubmissionsApi);
     }
 
-    get inUappUpurchasesUapi(): APIs.InAppPurchasesApi {
-        return this.getApi('inUappUpurchasesUapi', APIs.InAppPurchasesApi);
+    get inAppPurchasesApi(): APIs.InAppPurchasesApi {
+        return this.getApi('inAppPurchasesApi', APIs.InAppPurchasesApi);
     }
 
-    get marketplaceUdomainsUapi(): APIs.MarketplaceDomainsApi {
-        return this.getApi('marketplaceUdomainsUapi', APIs.MarketplaceDomainsApi);
+    get marketplaceDomainsApi(): APIs.MarketplaceDomainsApi {
+        return this.getApi('marketplaceDomainsApi', APIs.MarketplaceDomainsApi);
     }
 
-    get marketplaceUsearchUdetailsUapi(): APIs.MarketplaceSearchDetailsApi {
-        return this.getApi('marketplaceUsearchUdetailsUapi', APIs.MarketplaceSearchDetailsApi);
+    get marketplaceSearchDetailsApi(): APIs.MarketplaceSearchDetailsApi {
+        return this.getApi('marketplaceSearchDetailsApi', APIs.MarketplaceSearchDetailsApi);
     }
 
-    get marketplaceUwebhooksUapi(): APIs.MarketplaceWebhooksApi {
-        return this.getApi('marketplaceUwebhooksUapi', APIs.MarketplaceWebhooksApi);
+    get marketplaceWebhooksApi(): APIs.MarketplaceWebhooksApi {
+        return this.getApi('marketplaceWebhooksApi', APIs.MarketplaceWebhooksApi);
     }
 
-    get metricsUapi(): APIs.MetricsApi {
-        return this.getApi('metricsUapi', APIs.MetricsApi);
+    get metricsApi(): APIs.MetricsApi {
+        return this.getApi('metricsApi', APIs.MetricsApi);
     }
 
-    get preUreleaseUversionsUapi(): APIs.PreReleaseVersionsApi {
-        return this.getApi('preUreleaseUversionsUapi', APIs.PreReleaseVersionsApi);
+    get preReleaseVersionsApi(): APIs.PreReleaseVersionsApi {
+        return this.getApi('preReleaseVersionsApi', APIs.PreReleaseVersionsApi);
     }
 
-    get profilesUapi(): APIs.ProfilesApi {
-        return this.getApi('profilesUapi', APIs.ProfilesApi);
+    get profilesApi(): APIs.ProfilesApi {
+        return this.getApi('profilesApi', APIs.ProfilesApi);
     }
 
-    get promotedUpurchaseUimagesUapi(): APIs.PromotedPurchaseImagesApi {
-        return this.getApi('promotedUpurchaseUimagesUapi', APIs.PromotedPurchaseImagesApi);
+    get promotedPurchaseImagesApi(): APIs.PromotedPurchaseImagesApi {
+        return this.getApi('promotedPurchaseImagesApi', APIs.PromotedPurchaseImagesApi);
     }
 
-    get promotedUpurchasesUapi(): APIs.PromotedPurchasesApi {
-        return this.getApi('promotedUpurchasesUapi', APIs.PromotedPurchasesApi);
+    get promotedPurchasesApi(): APIs.PromotedPurchasesApi {
+        return this.getApi('promotedPurchasesApi', APIs.PromotedPurchasesApi);
     }
 
-    get reviewUsubmissionUitemsUapi(): APIs.ReviewSubmissionItemsApi {
-        return this.getApi('reviewUsubmissionUitemsUapi', APIs.ReviewSubmissionItemsApi);
+    get reviewSubmissionItemsApi(): APIs.ReviewSubmissionItemsApi {
+        return this.getApi('reviewSubmissionItemsApi', APIs.ReviewSubmissionItemsApi);
     }
 
-    get reviewUsubmissionsUapi(): APIs.ReviewSubmissionsApi {
-        return this.getApi('reviewUsubmissionsUapi', APIs.ReviewSubmissionsApi);
+    get reviewSubmissionsApi(): APIs.ReviewSubmissionsApi {
+        return this.getApi('reviewSubmissionsApi', APIs.ReviewSubmissionsApi);
     }
 
-    get routingUappUcoveragesUapi(): APIs.RoutingAppCoveragesApi {
-        return this.getApi('routingUappUcoveragesUapi', APIs.RoutingAppCoveragesApi);
+    get routingAppCoveragesApi(): APIs.RoutingAppCoveragesApi {
+        return this.getApi('routingAppCoveragesApi', APIs.RoutingAppCoveragesApi);
     }
 
-    get salesUreportsUapi(): APIs.SalesReportsApi {
-        return this.getApi('salesUreportsUapi', APIs.SalesReportsApi);
+    get salesReportsApi(): APIs.SalesReportsApi {
+        return this.getApi('salesReportsApi', APIs.SalesReportsApi);
     }
 
-    get sandboxUtestersUapi(): APIs.SandboxTestersApi {
-        return this.getApi('sandboxUtestersUapi', APIs.SandboxTestersApi);
+    get sandboxTestersApi(): APIs.SandboxTestersApi {
+        return this.getApi('sandboxTestersApi', APIs.SandboxTestersApi);
     }
 
-    get sandboxUtestersUclearUpurchaseUhistoryUrequestUapi(): APIs.SandboxTestersClearPurchaseHistoryRequestApi {
-        return this.getApi('sandboxUtestersUclearUpurchaseUhistoryUrequestUapi', APIs.SandboxTestersClearPurchaseHistoryRequestApi);
+    get sandboxTestersClearPurchaseHistoryRequestApi(): APIs.SandboxTestersClearPurchaseHistoryRequestApi {
+        return this.getApi('sandboxTestersClearPurchaseHistoryRequestApi', APIs.SandboxTestersClearPurchaseHistoryRequestApi);
     }
 
-    get scmUgitUreferencesUapi(): APIs.ScmGitReferencesApi {
-        return this.getApi('scmUgitUreferencesUapi', APIs.ScmGitReferencesApi);
+    get scmGitReferencesApi(): APIs.ScmGitReferencesApi {
+        return this.getApi('scmGitReferencesApi', APIs.ScmGitReferencesApi);
     }
 
-    get scmUprovidersUapi(): APIs.ScmProvidersApi {
-        return this.getApi('scmUprovidersUapi', APIs.ScmProvidersApi);
+    get scmProvidersApi(): APIs.ScmProvidersApi {
+        return this.getApi('scmProvidersApi', APIs.ScmProvidersApi);
     }
 
-    get scmUpullUrequestsUapi(): APIs.ScmPullRequestsApi {
-        return this.getApi('scmUpullUrequestsUapi', APIs.ScmPullRequestsApi);
+    get scmPullRequestsApi(): APIs.ScmPullRequestsApi {
+        return this.getApi('scmPullRequestsApi', APIs.ScmPullRequestsApi);
     }
 
-    get scmUrepositoriesUapi(): APIs.ScmRepositoriesApi {
-        return this.getApi('scmUrepositoriesUapi', APIs.ScmRepositoriesApi);
+    get scmRepositoriesApi(): APIs.ScmRepositoriesApi {
+        return this.getApi('scmRepositoriesApi', APIs.ScmRepositoriesApi);
     }
 
-    get subscriptionUappUstoreUreviewUscreenshotsUapi(): APIs.SubscriptionAppStoreReviewScreenshotsApi {
-        return this.getApi('subscriptionUappUstoreUreviewUscreenshotsUapi', APIs.SubscriptionAppStoreReviewScreenshotsApi);
+    get subscriptionAppStoreReviewScreenshotsApi(): APIs.SubscriptionAppStoreReviewScreenshotsApi {
+        return this.getApi('subscriptionAppStoreReviewScreenshotsApi', APIs.SubscriptionAppStoreReviewScreenshotsApi);
     }
 
-    get subscriptionUavailabilitiesUapi(): APIs.SubscriptionAvailabilitiesApi {
-        return this.getApi('subscriptionUavailabilitiesUapi', APIs.SubscriptionAvailabilitiesApi);
+    get subscriptionAvailabilitiesApi(): APIs.SubscriptionAvailabilitiesApi {
+        return this.getApi('subscriptionAvailabilitiesApi', APIs.SubscriptionAvailabilitiesApi);
     }
 
-    get subscriptionUgraceUperiodsUapi(): APIs.SubscriptionGracePeriodsApi {
-        return this.getApi('subscriptionUgraceUperiodsUapi', APIs.SubscriptionGracePeriodsApi);
+    get subscriptionGracePeriodsApi(): APIs.SubscriptionGracePeriodsApi {
+        return this.getApi('subscriptionGracePeriodsApi', APIs.SubscriptionGracePeriodsApi);
     }
 
-    get subscriptionUgroupUlocalizationsUapi(): APIs.SubscriptionGroupLocalizationsApi {
-        return this.getApi('subscriptionUgroupUlocalizationsUapi', APIs.SubscriptionGroupLocalizationsApi);
+    get subscriptionGroupLocalizationsApi(): APIs.SubscriptionGroupLocalizationsApi {
+        return this.getApi('subscriptionGroupLocalizationsApi', APIs.SubscriptionGroupLocalizationsApi);
     }
 
-    get subscriptionUgroupUsubmissionsUapi(): APIs.SubscriptionGroupSubmissionsApi {
-        return this.getApi('subscriptionUgroupUsubmissionsUapi', APIs.SubscriptionGroupSubmissionsApi);
+    get subscriptionGroupSubmissionsApi(): APIs.SubscriptionGroupSubmissionsApi {
+        return this.getApi('subscriptionGroupSubmissionsApi', APIs.SubscriptionGroupSubmissionsApi);
     }
 
-    get subscriptionUgroupsUapi(): APIs.SubscriptionGroupsApi {
-        return this.getApi('subscriptionUgroupsUapi', APIs.SubscriptionGroupsApi);
+    get subscriptionGroupsApi(): APIs.SubscriptionGroupsApi {
+        return this.getApi('subscriptionGroupsApi', APIs.SubscriptionGroupsApi);
     }
 
-    get subscriptionUimagesUapi(): APIs.SubscriptionImagesApi {
-        return this.getApi('subscriptionUimagesUapi', APIs.SubscriptionImagesApi);
+    get subscriptionImagesApi(): APIs.SubscriptionImagesApi {
+        return this.getApi('subscriptionImagesApi', APIs.SubscriptionImagesApi);
     }
 
-    get subscriptionUintroductoryUoffersUapi(): APIs.SubscriptionIntroductoryOffersApi {
-        return this.getApi('subscriptionUintroductoryUoffersUapi', APIs.SubscriptionIntroductoryOffersApi);
+    get subscriptionIntroductoryOffersApi(): APIs.SubscriptionIntroductoryOffersApi {
+        return this.getApi('subscriptionIntroductoryOffersApi', APIs.SubscriptionIntroductoryOffersApi);
     }
 
-    get subscriptionUlocalizationsUapi(): APIs.SubscriptionLocalizationsApi {
-        return this.getApi('subscriptionUlocalizationsUapi', APIs.SubscriptionLocalizationsApi);
+    get subscriptionLocalizationsApi(): APIs.SubscriptionLocalizationsApi {
+        return this.getApi('subscriptionLocalizationsApi', APIs.SubscriptionLocalizationsApi);
     }
 
-    get subscriptionUofferUcodeUcustomUcodesUapi(): APIs.SubscriptionOfferCodeCustomCodesApi {
-        return this.getApi('subscriptionUofferUcodeUcustomUcodesUapi', APIs.SubscriptionOfferCodeCustomCodesApi);
+    get subscriptionOfferCodeCustomCodesApi(): APIs.SubscriptionOfferCodeCustomCodesApi {
+        return this.getApi('subscriptionOfferCodeCustomCodesApi', APIs.SubscriptionOfferCodeCustomCodesApi);
     }
 
-    get subscriptionUofferUcodeUoneUtimeUuseUcodesUapi(): APIs.SubscriptionOfferCodeOneTimeUseCodesApi {
-        return this.getApi('subscriptionUofferUcodeUoneUtimeUuseUcodesUapi', APIs.SubscriptionOfferCodeOneTimeUseCodesApi);
+    get subscriptionOfferCodeOneTimeUseCodesApi(): APIs.SubscriptionOfferCodeOneTimeUseCodesApi {
+        return this.getApi('subscriptionOfferCodeOneTimeUseCodesApi', APIs.SubscriptionOfferCodeOneTimeUseCodesApi);
     }
 
-    get subscriptionUofferUcodesUapi(): APIs.SubscriptionOfferCodesApi {
-        return this.getApi('subscriptionUofferUcodesUapi', APIs.SubscriptionOfferCodesApi);
+    get subscriptionOfferCodesApi(): APIs.SubscriptionOfferCodesApi {
+        return this.getApi('subscriptionOfferCodesApi', APIs.SubscriptionOfferCodesApi);
     }
 
-    get subscriptionUpriceUpointsUapi(): APIs.SubscriptionPricePointsApi {
-        return this.getApi('subscriptionUpriceUpointsUapi', APIs.SubscriptionPricePointsApi);
+    get subscriptionPricePointsApi(): APIs.SubscriptionPricePointsApi {
+        return this.getApi('subscriptionPricePointsApi', APIs.SubscriptionPricePointsApi);
     }
 
-    get subscriptionUpricesUapi(): APIs.SubscriptionPricesApi {
-        return this.getApi('subscriptionUpricesUapi', APIs.SubscriptionPricesApi);
+    get subscriptionPricesApi(): APIs.SubscriptionPricesApi {
+        return this.getApi('subscriptionPricesApi', APIs.SubscriptionPricesApi);
     }
 
-    get subscriptionUpromotionalUoffersUapi(): APIs.SubscriptionPromotionalOffersApi {
-        return this.getApi('subscriptionUpromotionalUoffersUapi', APIs.SubscriptionPromotionalOffersApi);
+    get subscriptionPromotionalOffersApi(): APIs.SubscriptionPromotionalOffersApi {
+        return this.getApi('subscriptionPromotionalOffersApi', APIs.SubscriptionPromotionalOffersApi);
     }
 
-    get subscriptionUsubmissionsUapi(): APIs.SubscriptionSubmissionsApi {
-        return this.getApi('subscriptionUsubmissionsUapi', APIs.SubscriptionSubmissionsApi);
+    get subscriptionSubmissionsApi(): APIs.SubscriptionSubmissionsApi {
+        return this.getApi('subscriptionSubmissionsApi', APIs.SubscriptionSubmissionsApi);
     }
 
-    get subscriptionsUapi(): APIs.SubscriptionsApi {
-        return this.getApi('subscriptionsUapi', APIs.SubscriptionsApi);
+    get subscriptionsApi(): APIs.SubscriptionsApi {
+        return this.getApi('subscriptionsApi', APIs.SubscriptionsApi);
     }
 
-    get territoriesUapi(): APIs.TerritoriesApi {
-        return this.getApi('territoriesUapi', APIs.TerritoriesApi);
+    get territoriesApi(): APIs.TerritoriesApi {
+        return this.getApi('territoriesApi', APIs.TerritoriesApi);
     }
 
-    get territoryUavailabilitiesUapi(): APIs.TerritoryAvailabilitiesApi {
-        return this.getApi('territoryUavailabilitiesUapi', APIs.TerritoryAvailabilitiesApi);
+    get territoryAvailabilitiesApi(): APIs.TerritoryAvailabilitiesApi {
+        return this.getApi('territoryAvailabilitiesApi', APIs.TerritoryAvailabilitiesApi);
     }
 
-    get userUinvitationsUapi(): APIs.UserInvitationsApi {
-        return this.getApi('userUinvitationsUapi', APIs.UserInvitationsApi);
+    get userInvitationsApi(): APIs.UserInvitationsApi {
+        return this.getApi('userInvitationsApi', APIs.UserInvitationsApi);
     }
 
-    get usersUapi(): APIs.UsersApi {
-        return this.getApi('usersUapi', APIs.UsersApi);
+    get usersApi(): APIs.UsersApi {
+        return this.getApi('usersApi', APIs.UsersApi);
     }
 
-    get winUbackUoffersUapi(): APIs.WinBackOffersApi {
-        return this.getApi('winUbackUoffersUapi', APIs.WinBackOffersApi);
+    get winBackOffersApi(): APIs.WinBackOffersApi {
+        return this.getApi('winBackOffersApi', APIs.WinBackOffersApi);
     }
 }
