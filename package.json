@@ -1,6 +1,6 @@
 {
   "name": "@dipendra/app-store-connect-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A TypeScript library for interacting with the Apple App Store Connect API. Generated using OpenAPI Generator, this package provides strongly-typed client for App Store Connect API integration.",
   "type": "module",
   "main": "./dist/index.js",
@@ -17,7 +17,7 @@
     "README.md"
   ],
   "scripts": {
-    "postinstall": "openapi-generator-cli generate -i specification/app_store_connect_api_openapi.json -g typescript-fetch -o . && chmod +x scripts/generate_client.sh && ./scripts/generate_client.sh",
+    "generate": "openapi-generator-cli generate -i specification/app_store_connect_api_openapi.json -g typescript-fetch -o . && chmod +x scripts/generate_client.sh && ./scripts/generate_client.sh",
     "build": "tsc",
     "compile": "tsc --noEmit",
     "prepare": "npm run build",
